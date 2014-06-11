@@ -38,5 +38,6 @@ function all() {
     // splice: 
     console.log(animals.splice());
 
+
 }
 all();
