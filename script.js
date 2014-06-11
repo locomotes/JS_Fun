@@ -1,105 +1,42 @@
-// 5 variables
+// homework June, 10th
 
-// var homework = (output) {
-// 	function runMe() {
-var name = 'Jonathan';
-var dog = 'pitbull';
-var car = 'chevy';
-var favnumber = 8;
-var favmultiple = 3;
+function all() {
 
-console.log(name);
-console.log(dog);
-console.log(car);
-console.log(favnumber);
-console.log(favmultiple);
-
-
-// concat
-var whoelse = name.concat(' and friends');
-console.log(whoelse)
-
-// //split 
-name.split('a')
-// //["Jon", "th", "n"]
-
-//join
-
-//petname.length
-// var petname = "dog"
-//  petname.legth
-
-// join
-var animals = ['zebra', 'lion', 'giraffe', 'ox', 'mule', 'donkey', 'ape', 'monkey', 'cat', 'mouse'];
-animals.join()
-
-console.log(animals.push())
-
-animals.pop()
-
-//everse: animals.reverse() ["cat", "monkey", "ape", "donkey", "mule", "ox", "giraffe", "lion", "zebra"]
-
-//splice: animals.splice()["donkey", "mule", "ox", "giraffe", "lion", "zebra"]
-
-var homework = function(
+    // 5 variables
     var name = 'Jonathan';
     var dog = 'pitbull';
     var car = 'chevy';
     var favnumber = 8;
     var favmultiple = 3;
 
-    console.log(name); console.log(dog); console.log(car); console.log(favnumber); console.log(favmultiple);
+    // split 
+    var namesplit = name.split('a');
+    console.log(namesplit);
 
-    var whoelse = name.concat(' and friends'); console.log(whoelse); console.log(name.split('a'));
+    // concat
+    var whoelse = name.concat(' and friends');
+    console.log(whoelse);
 
-    var petname = "dog"; console.log(petname); console.log(petname.legth);
+    // legth
+    var doglength = dog.length;
+    console.log(doglength);
 
-    var animals = ['zebra', 'lion', 'giraffe', 'ox', 'mule', 'donkey', 'ape', 'monkey', 'cat', 'mouse']; animals.join() console.log(animals); console.log(animals.push()) console.log(animals.pop()); console.log(animals.reverse()); console.log(splice: animals.splice());
-) {
-    return name.split('a');
+    // join
+    var animals = ['zebra', 'lion', 'giraffe', 'ox', 'mule', 'donkey', 'ape', 'monkey', 'cat', 'mouse'];
+    console.log(animals.join());
+
+    // push
+    console.log(animals.push('gorilla'));
+    console.log(animals);
+
+    // pop
+    console.log(animals.pop());
+
+    // reverse: 
+    console.log(animals.reverse());
+
+    // splice: 
+    console.log(animals.splice());
+
 }
-
-name.split('a')
-
-//}
-
-// function runMe() {
-
-// var name = 'Jonathan';
-// var dog = 'pitbull';
-// var car = 'chevy';
-// var favnumber = 8;
-// var favmultiple = 3;
-
-// // concat
-// var whoelse = name.concat(' and friends');
-// //console.log(whoelse)
-
-// //split 
-// name.split('a')
-// //["Jon", "th", "n"]
-
-// //join
-
-// //petname.length
-// var petname = "dog"
-// // petname.legth
-
-// // join
-// var animals = ['zebra', 'lion', 'giraffe', 'ox', 'mule', 'donkey', 'ape', 'monkey', 'cat', 'mouse'];
-// //animals.join()
-
-// //push: animals.push(turtle) 11
-
-// //pop: animals.pop() "turtle"
-
-// //reverse: animals.reverse() ["cat", "monkey", "ape", "donkey", "mule", "ox", "giraffe", "lion", "zebra"]
-
-// //splice: animals.splice()["donkey", "mule", "ox", "giraffe", "lion", "zebra"]
-
-// //function homework (output) {
-// 	//console.log('name.split('a')', 'petname.legth');
-// }
-
-
-// }
+all();
