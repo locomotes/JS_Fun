@@ -37,7 +37,7 @@ var par = function() {
         return ("xwins");
     } else {
         return ("xlooses");
-    };
+    }
 };
 par();
 
@@ -46,7 +46,7 @@ var sixpackofbeer = function(y) {
         return ("drink");
     } else {
         return ("ask for a discount");
-    };
+    }
 };
 sixpackofbeer();
 
@@ -66,11 +66,25 @@ var house = {
 
 var evenjumps = {
     even_number: [2, 4, 6, 8, 10]
-}
+};
 
-var funk = {
-    bass: 2,
+var party = {
+    dance: 2,
     funky: function() {
         alert("it's running")
     }
+};
+
+var woodworking = {
+    tablesaw: 1,
+    hammer: 2,
+    wood: {
+        whitepine: 1,
+        cedar: 3,
+        oak: 6
+    }
+};
+
+var oddjumps = {
+    odd_number: [1, 3, 6, 9, 11]
 };
