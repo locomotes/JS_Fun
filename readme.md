@@ -1,3 +1,16 @@
+June 12 
+Weekend Homework
+
+1. Make sure you are completely up to date. Take the weekend to get caught up. On monday morning you NEED to be done with all of the work as we will be moving fast next week.
+
+2. Complete the following questions at the link below.
+
+https://gist.github.com/twhitacre/c45978cc56e48873b588
+
+Feel free to use the JS Homework repo and just create a new file with the answers in it.
+
+
+
 
 June 11
 Also, create another JS file in your JS homework repo from last night and I want you do do the following in it.
