@@ -1028,31 +1028,31 @@ var items = [{
 // 1. Show me how to calculate the average price of all items. Please console.log the average.
 // The output should be "The average price is $23.62"
 
-// var prices = items.map(function(a, b) {
-//     return a.price;
-// });
-// var sum = prices.reduce(function(a, b) {
-//     return a + b;
-// });
+var prices = items.map(function(a, b) {
+    return a.price;
+});
+var sum = prices.reduce(function(a, b) {
+    return a + b;
+});
 
-// var length = items.length;
+var length = items.length;
 
-// var avg = sum / length;
+var avg = sum / length;
 
-// var shortenp = parseInt((avg * 100)) / 100;
+var shortenp = parseInt((avg * 100)) / 100;
 
-// console.log('The average price is $' + shortenp);
+console.log('The average price is $' + shortenp);
 
 
 // 2. Show me how find the item with a "GBP" curreny code and print its name and price. Please console.log the one you find.
 // The output should be "1970s Schlitz Malt Liquor Glass Beer Pitcher costs £18"
 
-// var beer = items.map(function(a, b) {
-//     return a.currency_code;
-// });
-// var itemnum = beer.indexOf('GBP');
+var beer = items.map(function(a, b) {
+    return a.currency_code;
+});
+var itemnum = beer.indexOf('GBP');
 
-// console.log(items[10].title + " costs \u00A3" + items[10].price);
+console.log(items[10].title + " costs \u00A3" + items[10].price);
 
 
 // 3. Show me how to find which items are made of wood. Please console.log the ones you find.
@@ -1064,36 +1064,11 @@ var items = [{
 // Magnetic Wall Mount Bottle Opener Barware Set - Stainless Steel or Black - Personalized if you like! is made of wood.
 // Engraved Pocket Knife, Personalized Groomsmen Gift, Ring Bearer Gift, Graduation Gift, 4 Knives is made of wood.
 
-// var mats = items.map(function(a, b) {
-//     return a.wood;
-// });
-var filter1 = items.forEach(function(a) {
-    return a.materials.forEach(function(b) {
-        return b
+
+items.forEach(function(a) {
+    a.materials.forEach(function(b) {
         if (b === "wood") {
-            console.log(a.title);
+            console.log(a.title + " is made of wood");
         };
     });
 });
-
-// var filterwood = mats.map(function(a, b) {
-//     return b;
-// });
-
-
-
-// var filterwood = if(items[i].materials = "wood") {
-//   return items[i]
-// } else {
-//   return
-// }
-
-
-// var wood = mats.map(function(a, b) {
-//     return a.wood;
-// });
-
-// var filter1 = wood.forEach(function)
-
-
-// var
